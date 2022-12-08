@@ -1,0 +1,12 @@
+﻿int[] myArray = new int[4];
+System.Console.WriteLine("Введите координаты");
+System.Console.Write("X1: ");
+myArray[0] = int.Parse(Console.ReadLine());
+System.Console.Write("Y1: ");
+myArray[1] = int.Parse(Console.ReadLine());
+System.Console.Write("X2: ");
+myArray[2] = int.Parse(Console.ReadLine());
+System.Console.Write("Y2: ");
+myArray[3] = int.Parse(Console.ReadLine());
+System.Console.Write("Расстояние равно: ");
+System.Console.WriteLine(Math.Sqrt((Math.Pow((myArray[2] - myArray[0]), 2)) + Math.Pow((myArray[3] - myArray[1]), 2)));
