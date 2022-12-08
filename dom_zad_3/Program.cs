@@ -16,6 +16,6 @@ while (numValue <= 0 || isNumber == false)
 
 for (int i = 1; i < numValue; i++)
 {
-    System.Console.Write($"{i * i}, ");
+    System.Console.Write($"{i * i * i}, ");
 }
-System.Console.WriteLine(numValue * numValue);
+System.Console.WriteLine(numValue * numValue * numValue);
